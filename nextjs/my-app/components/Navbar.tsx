@@ -1,14 +1,17 @@
-import React from 'react';
-import Link from 'next/link';
+import Link from 'next/link'
+import React from 'react'
 
-import styles from '../styles/Navbar.module.css';
-
-
-export default function NavBar() {
+export default function Navbar() {
   return (
-    <main className={styles.navbar}>
-      <Link href="/products">Products</Link>
-      <Link href="/todos">Todos</Link>
-    </main>
+    <nav>
+      <div>
+        <p>Logo</p>
+        <h1>PokeNext</h1>
+        <ul>
+          <li><Link href='/'>Home</Link></li>
+          <li><Link href='/about'>Sobre</Link></li>
+        </ul>
+      </div>
+    </nav>
   )
 }

@@ -1,11 +1,12 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import React from 'react';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Página Principal</title>
+        <title>Pokemom & Next</title>
         <meta name='keyworkds' content="Roupas, Calçados, Boné"></meta>
         <meta
           name='description'
